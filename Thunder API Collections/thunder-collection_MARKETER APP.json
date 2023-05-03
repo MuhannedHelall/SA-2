@@ -1,0 +1,47 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "MARKETER APP",
+    "dateExported": "2023-04-29T04:34:00.983Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a15f8e35-e170-424e-857f-6dd440da8613",
+            "colId": "c1f2e50d-e0b5-4135-9ca2-0a8ba6a4d03e",
+            "containerId": "",
+            "name": "CREATE OFFER",
+            "url": "http://localhost:8081/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-04-28T18:11:42.973Z",
+            "modified": "2023-04-29T04:20:56.460Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\" : \"Mobile\",\n  \"price\" : \"120$\",\n  \"endDate\" : \"2023-05-20\",\n  \"isDeleted\" : false\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ed64e606-676a-405a-a1aa-c32b5a2d4f62",
+            "colId": "c1f2e50d-e0b5-4135-9ca2-0a8ba6a4d03e",
+            "containerId": "",
+            "name": "DELETE OFFER",
+            "url": "http://localhost:8081/",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2023-04-28T18:19:02.985Z",
+            "modified": "2023-04-29T04:19:18.627Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\" : 1,\n  \"isDeleted\" : true\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

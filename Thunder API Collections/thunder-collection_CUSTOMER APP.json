@@ -1,0 +1,146 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "CUSTOMER APP",
+    "dateExported": "2023-04-29T04:33:45.785Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "18b5afba-6b53-4465-a7ea-f3e0d5b4fc3d",
+            "name": "CUSTOMERS",
+            "containerId": "",
+            "created": "2023-04-28T18:09:25.806Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "fb02de98-c605-4c79-9a24-7e6a50ccc812",
+            "name": "OFFERS",
+            "containerId": "",
+            "created": "2023-04-28T18:09:34.000Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "ebcac1c6-5e43-4872-9fb8-f18ba873014f",
+            "colId": "25f33574-1f34-4385-a441-b9a992bad8ae",
+            "containerId": "fb02de98-c605-4c79-9a24-7e6a50ccc812",
+            "name": "GET ALL OFFERS",
+            "url": "http://localhost:8082/offers/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-04-28T18:17:14.546Z",
+            "modified": "2023-04-28T18:18:03.912Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "2bfc5143-a1cb-448a-8ecf-5f67b0ef6447",
+            "colId": "25f33574-1f34-4385-a441-b9a992bad8ae",
+            "containerId": "18b5afba-6b53-4465-a7ea-f3e0d5b4fc3d",
+            "name": "GET ALL CUSTOMERS",
+            "url": "http://localhost:8082/customers/",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2023-04-28T18:10:20.169Z",
+            "modified": "2023-04-28T18:14:22.236Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "cf18fa1d-5c86-4a88-9259-c742b9028887",
+            "colId": "25f33574-1f34-4385-a441-b9a992bad8ae",
+            "containerId": "fb02de98-c605-4c79-9a24-7e6a50ccc812",
+            "name": "GET OFFER",
+            "url": "http://localhost:8082/offers/1",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2023-04-28T18:17:20.042Z",
+            "modified": "2023-04-28T18:18:23.940Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "7732d520-c85a-4e64-8bc9-9264c9657e7d",
+            "colId": "25f33574-1f34-4385-a441-b9a992bad8ae",
+            "containerId": "18b5afba-6b53-4465-a7ea-f3e0d5b4fc3d",
+            "name": "GET CUSTOMER",
+            "url": "http://localhost:8082/customers/1",
+            "method": "GET",
+            "sortNum": 21250,
+            "created": "2023-04-28T18:11:09.652Z",
+            "modified": "2023-04-28T18:17:27.056Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ebd5fb66-eab2-4dd9-8910-5324cb81a03e",
+            "colId": "25f33574-1f34-4385-a441-b9a992bad8ae",
+            "containerId": "fb02de98-c605-4c79-9a24-7e6a50ccc812",
+            "name": "DELETE OFFER",
+            "url": "http://localhost:8082/offers/11",
+            "method": "DELETE",
+            "sortNum": 25000,
+            "created": "2023-04-28T18:17:31.020Z",
+            "modified": "2023-04-28T18:56:33.301Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ceed1384-7360-40a1-bded-2fb01f6c08bf",
+            "colId": "25f33574-1f34-4385-a441-b9a992bad8ae",
+            "containerId": "18b5afba-6b53-4465-a7ea-f3e0d5b4fc3d",
+            "name": "CREATE CUSTOMER",
+            "url": "http://localhost:8082/customers/",
+            "method": "POST",
+            "sortNum": 27500,
+            "created": "2023-04-28T18:08:16.640Z",
+            "modified": "2023-04-28T18:32:35.078Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Muhanned Helall\",\n  \"email\": \"lkdsj@gmail.com\",\n  \"password\": \"123456789\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "b28e9056-bda1-4488-9108-f7263721af98",
+            "colId": "25f33574-1f34-4385-a441-b9a992bad8ae",
+            "containerId": "18b5afba-6b53-4465-a7ea-f3e0d5b4fc3d",
+            "name": "UPDATE CUSTOMER",
+            "url": "http://localhost:8082/customers/1",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2023-04-28T18:12:29.656Z",
+            "modified": "2023-04-28T18:32:52.047Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Muhanned\",\n  \"email\": \"lkdsj@gmail.com\",\n  \"password\": \"123456789\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "221b4ea1-929b-44cb-b9e6-97c224304b9f",
+            "colId": "25f33574-1f34-4385-a441-b9a992bad8ae",
+            "containerId": "18b5afba-6b53-4465-a7ea-f3e0d5b4fc3d",
+            "name": "DELETE CUSTOMER",
+            "url": "http://localhost:8082/customers/3",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2023-04-28T18:12:59.212Z",
+            "modified": "2023-04-28T18:16:57.454Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
